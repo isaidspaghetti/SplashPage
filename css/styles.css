@@ -1,0 +1,24 @@
+body{
+    padding: 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark{
+    background-color: #292b2f;
+    color: #f3f3f3;
+}
+.navbar-brand{
+    color: #40af93;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color:#40af93;
+}
+
+.bg{
+    background-image: url('../img/background.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

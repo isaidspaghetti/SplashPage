@@ -4,12 +4,13 @@
   "main": "index.html",
   "dependencies": {
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.4",
-    "bootstrap": "^4.1.3"
+    "popper.js": "^1.14.4"
   },
   "devDependencies": {
+    "bootstrap": "^4.1.3",
     "browser-sync": "^2.24.6",
     "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
     "gulp-flatmap": "^1.0.2",
@@ -23,7 +24,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite"
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "author": "Taylor Graham",
   "license": "ISC",
@@ -31,6 +33,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isaidspaghetti/tgportfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaidspaghetti/tgportfolio/issues"
   },
   "description": ""
 }
